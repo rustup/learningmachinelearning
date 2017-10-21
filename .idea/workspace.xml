@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8e2fb23-21f6-4857-9478-1d2d50f3705d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="kNN.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/kNN.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1034">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/kNN.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>SBT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learningmachinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learningmachinelearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learningmachinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learningmachinelearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learningmachinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learningmachinelearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learningmachinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learningmachinelearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1508572737404" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="learningmachinelearning" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="learningmachinelearning" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="learningmachinelearning-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8e2fb23-21f6-4857-9478-1d2d50f3705d" name="Default" comment="" />
+      <created>1508572693067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508572693067</updated>
+      <workItem from="1508572694579" duration="9262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="106" y="23" width="1814" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/io/Source.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="129" column="6" lean-forward="false" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
+          <folding>
+            <marker date="1507705894000" expanded="false" signature="0:524" ph="/.../" />
+            <marker date="1507705894000" expanded="false" signature="559:708" ph="..." />
+            <marker date="1507705894000" expanded="true" signature="710:888" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="903:6728" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="936:980" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1025:1140" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1196:1285" ph="..." />
+            <marker date="1507705894000" expanded="true" signature="1207:1245" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="1289:1349" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1410:1484" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1554:1614" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1672:1766" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1877:1993" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2088:2147" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2253:2308" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2398:2510" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2632:2692" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2906:3076" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3163:3421" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="3238:3361" ph="(...)" />
+            <marker date="1507705894000" expanded="true" signature="3425:3573" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3785:3894" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4001:4058" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4163:4212" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4299:4336" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4437:4500" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4588:4646" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4760:5385" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="5588:5886" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="6182:6509" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="6730:7448" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="7509:12176" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="7885:8447" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="8075:8329" ph="..." />
+            <marker date="1507705894000" expanded="true" signature="8091:8329" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="8175:8268" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="8280:8323" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="8376:8443" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="8451:8704" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="8764:8830" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="8863:8896" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="8975:9592" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="9339:9588" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="9419:9573" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="9452:9481" ph="..." />
+            <marker date="1507705894000" expanded="true" signature="9595:9675" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="9718:9777" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="9896:9945" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="10001:10238" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10327:10375" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="10437:10578" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10633:10807" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="10811:10992" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="11083:11147" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="11367:11403" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="11448:11484" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="11534:11565" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="11657:11732" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="11785:11820" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="11896:11948" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="12043:12174" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/util/Random.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="144" column="7" lean-forward="false" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+          <folding>
+            <marker date="1507705894000" expanded="false" signature="0:524" ph="/.../" />
+            <marker date="1507705894000" expanded="false" signature="561:750" ph="..." />
+            <marker date="1507705894000" expanded="true" signature="752:793" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="868:4591" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="1216:1344" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1398:1485" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1522:1547" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="1551:1698" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1749:1895" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="1943:2129" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2184:2308" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2350:2538" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2587:2712" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2757:3182" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3215:3397" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="3238:3349" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="3401:3504" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3539:3625" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="3679:3809" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3920:4196" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="3994:4069" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="4108:4161" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="4200:4343" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4379:4588" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="4410:4547" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="4593:4735" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4765:4849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/math/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="231" column="6" lean-forward="false" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
+          <folding>
+            <marker date="1507705894000" expanded="false" signature="0:524" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="541:2466" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2487:11584" ph="{...}" />
+            <marker date="1507705894000" expanded="true" signature="2491:2623" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2668:2825" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="2872:3018" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3528:3770" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="3839:4078" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4147:4510" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4585:4907" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="4982:5157" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="5325:5622" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="5681:5895" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="6074:6294" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="6351:6573" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="7647:7717" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="7782:7849" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="8076:8247" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="8251:8422" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="8481:8656" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="8715:8893" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="8897:9114" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="9185:9434" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="9491:9544" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="9605:9783" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="9787:9998" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10055:10162" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10223:10313" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10374:10554" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="10558:10649" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10708:10801" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="10860:10954" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="11012:11192" ph="/.../" />
+            <marker date="1507705894000" expanded="true" signature="11196:11279" ph="/**...*/" />
+            <marker date="1507705894000" expanded="true" signature="11336:11418" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/kNN.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>learningmachinelearning</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

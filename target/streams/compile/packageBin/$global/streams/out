@@ -1,0 +1,27 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/learningmachinelearning_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Verginica$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Verginica$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ttype.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Ttype.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VersiColour$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/VersiColour$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Iris$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Iris$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Setosa.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Setosa.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Setosa$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Setosa$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VersiColour.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/VersiColour.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kNN$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/kNN$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Verginica.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Verginica.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Iris.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/Iris.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kNN.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/kNN.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kNN$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/soul.zhou/OneDrive/source/learningmachinelearning/target/scala-2.12/classes/kNN$delayedInit$body.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
