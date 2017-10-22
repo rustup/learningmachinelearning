@@ -1,5 +1,8 @@
 *.iml
+.idea
 *.ipr
+project
+target
 *.iws
 .idea
 out
