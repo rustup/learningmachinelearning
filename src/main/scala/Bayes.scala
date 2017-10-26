@@ -14,53 +14,88 @@ object Bayes extends App {
 }
 
 class Bayes() {
-  //训练出来的模型
-  //创建词典
-  //新建一个字符串代码
-  //计算概率
-  //var vocabsVector: Seq[Int] = Seq[Int]()
-  var vocabs: List[String]
-  val isSpamVec: Iterator[Boolean]
-  case class Proper(p0: Double, p1: Double)
+  var isSpamVector: Seq[Boolean]
+  var gvocaSet: Set[String]
+  var gmatrix: Iterator[Seq[Int]]
+  var dataLines: Iterator[String]
 
-  def loadData(lines: Iterator[String]): Unit = {
-    val isSpamVec = lines.map(line => line.split(",").last == "spam")
+  def loadData(lines: Iterator[String]): Set[String] = {
+    case class Line(line: String, isSpam: Boolean)
+    val linesHandled = for (line <- lines) yield {
+      val index = line.lastIndexOf(",")
+      (line.slice(0, index).replaceAll("[*,.]", ""), line.slice(index, line.size) == "spam")
+    }
+    isSpamVector = linesHandled.map(_._2).toSeq
+    dataLines = linesHandled.map(_._1)
 
-    val linesHandled = for (line <- lines) yield line.slice(0, line.lastIndexOf(",")).replaceAll("[* ,.]", "")
-    //val linessWithout = lines.map(lines => lines.replaceAll("[, .]", ""))
-    val vocaSet = for (e <- linessWithout; word <- e.split(" ")) yield word
-    vocabs = vocaSet.toSet.toList
+    val vocaSet = linesHandled.flatMap(x => x._1.split(" ")).toSet[String]
+    gvocaSet = vocaSet
+    gvocaSet
   }
 
-  def vocCntInEmail(wordVec: Array[String], tofind: String): Int = {
-    wordVec.foldLeft(0)((z: Int, b: String) => {
-      if (b == tofind) {
-        z + 1
-      } else {
-        z
-      }
+  def generateVector(line: String): Iterator[Int] = {
+    val wordVec = line.replaceAll("[,.*]", "").split(" ")
+    val existVec = for (v <- gvocaSet) yield wordVec.count(_ == v)
+    existVec.toIterator
+  }
+
+  def genMatrix(): Iterator[Seq[Int]] = {
+
+    gmatrix = dataLines.map(line => {
+      generateVector(line).toSeq
     })
+    gmatrix
   }
 
-  def generateVector(email: String): Seq[Int] = {
-    val wordVec = "zhangsan".replaceAll("[, .]", "").split(" ")
-    for (v <- vocabs) yield vocCntInEmail(wordVec, v)
-  }
+  //word2vec  计算在原始词汇库中出现的次数
+  //用于计算
 
-  def spamProper: Double = {
+  case class Ratios(wordInSpamVec: Seq[Double], wordInAll: Seq[Double], spamInAll: Double)
+  def train(): Ratios = {
+    //由标注数据 作为原始词库 训练得出如下几个数据
+    // 垃圾邮件占比
+    // 单词在垃圾邮件所有单词中出现的概率 单词在全部邮件所有单词中出现的概率 
+    // 从 vocabulary
+    // 需要首先生成 matrix
+    var wordRadioInAll = gvocaSet.map(x => 0.0).toSeq
+    var wordRadioInSpam = gvocaSet.map(x => 0.0).toSeq
+    var wordcntInAll = 0
+    var wordcntInSpam = 0
+    var radioVector = gvocaSet.map(x => 0).toIterator
 
-  }
+    val wordcnt = gvocaSet.size
+    val spamCnt = 0
+    var spanRatio = isSpamVector.filter(_ == true).size.toDouble / isSpamVector.size.toDouble
+    gvocaSet.foldLeft(0)((bindex: Int, a: String) => {
+      //b 是 index
+      var matrixIndex = 0
 
-  def calculate(): Proper = {
-    // P(c|w) 正比垃圾邮件的概率  
-    //正比垃圾邮件中出现 w 的概率
-    //反比正常邮件中出现该 w 的概率(该值 垃圾邮件和飞垃圾邮件一样 不参与对比
-    Proper(1, 1)
-    val p0 = math.log()
-  }
+      var lineIndex = 0
+      var spamCnt = 0
+      gmatrix.foreach(line => {
+        if (isSpamVector(lineIndex)) {
+          spamCnt = spamCnt + line.sum
+          lineIndex = lineIndex++
+        }
+      })
 
-  def classify(s: String, spam: Boolean): Boolean = {
-    ???
+      gmatrix.foreach(line => {
+        if (isSpamVector(matrixIndex)) {
+          //is spam
+          wordcntInSpam = wordcntInSpam + line(bindex)
+          wordcntInAll = wordcntInAll + line(bindex)
+        } else {
+          //is ham
+          wordcntInAll = wordcntInAll + line(bindex)
+        }
+
+        matrixIndex = matrixIndex + 1
+      })
+      wordRadioInAll[bindex] = wordcntInAll / gvocaSet.size
+      wordRadioInSpam[bindex] = wordcntInSpam / spamCnt
+      bindex + 1
+    })
+    Ratios(wordRadioInAll, wordRadioInAll, spanRatio)
   }
 }
 
